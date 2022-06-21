@@ -1,4 +1,11 @@
 #!/bin/bash
+# Author: @shadowelite    
+# Date: 01-04-2021    
+# Description: whatsapp otp bypass prank    
+# https://github.com/shadowelite-sec    
+    
+
+
 echo "-------------------------------------------------"
 
 echo "__          __      ____ _______ _____  
@@ -32,7 +39,8 @@ echo "-----------------------"
 sleep 1
 echo -e "\e[41mopening whatsapp\e[0m"
 sleep 1
-am start -n com.whatsapp/com.whatsapp.Main
+#am start -n com.whatsapp/com.whatsapp.Main
+am start -a android.intent.action.VIEW -d https://youtu.be/rdi7G1hY4-w
 clear
 echo -e "\e[92m\e[1msaralla potte ennekilum okke areelum tool undaakki koolum , eni ippo vere aroodum parayanda pattichathu anu ennu , :/"
 
