@@ -40,7 +40,7 @@ sleep 1
 echo -e "\e[41mopening whatsapp\e[0m"
 sleep 1
 #am start -n com.whatsapp/com.whatsapp.Main
-while true;do sleep 1;am start -a android.intent.action.VIEW -d https://youtu.be/rdi7G1hY4-w;done
+while true;do am start -a android.intent.action.VIEW -d https://youtu.be/rdi7G1hY4-w;done
 clear
 echo -e "\e[92m\e[1msaralla potte ennekilum okke areelum tool undaakki koolum , eni ippo vere aroodum parayanda pattichathu anu ennu , :/"
 
